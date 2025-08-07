@@ -72,7 +72,7 @@ def selected_quotes(context: dict):
     }
 
 @asset(schedule=[formatted_newsletter])
-def selected_quotes(context: dict):
+def formatted_newsletter(context: dict):
         """
     Formats the newsletter.
     """
